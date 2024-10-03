@@ -13,7 +13,10 @@ CHEATS_PATHS = [
     join(DATAPATH, "cheats"),  # DEFAULT
     # Additional paths below, add comma to line above
     join(BASEPATH, "my_cheats"),
-    join(HOMEPATH, ".cheats")
+    join(HOMEPATH, ".cheats"),
+    # Add exegol folder
+    "/opt/my-resources/my-cheats",
+    "/opt/my-resources/setup/arsenal-cheats"
 ]
 
 messages_error_missing_arguments = 'Error missing arguments'
